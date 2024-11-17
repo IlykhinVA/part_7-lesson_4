@@ -12,7 +12,7 @@ elif score_1 < score_2 or score_1 == score_2 and team1_time < team2_time:
 else:
     challenge_result = 'Ничья!'
 
-tasks_total = score_2 + score_2
+tasks_total = score_2 + score_1
 time_avg = (team1_time + team2_time) / tasks_total
 
 print('В команде Мастера кода участников: %s!' % team1_num)
